@@ -92,12 +92,15 @@ object biblioteca {
     }
 }
 object munieco {
-    var peso=100
+    var elPeso = 100
     method color() {
         return celeste
     }
     method cambiarPeso(unValor) {
-        peso = unValor
+        elPeso = unValor
+    }
+    method peso(){
+        return elPeso
     }
     method material() {
         return vidrio
